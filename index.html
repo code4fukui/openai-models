@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>openai models</title>
+</head><body>
+<h1>openai models</h1>
+
+<main id=main></main>
+
+<hr>
+<a href=https://github.com/code4fukui/openai-models/>src on GitHub</a>
+
+<script type="module">
+import { CSV } from "https://js.sabae.cc/CSV.js";
+
+const data = await CSV.fetchJSON("./openai-models.csv");
+main.appendChild(CSV.makeTable(CSV.fromJSON(data.reverse())));
+
+</script>
+
+<style>
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: .2em .5em;
+}
+</style>
+
+</body></html>
