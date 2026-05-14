@@ -7,7 +7,7 @@ A simple project to automatically track and list new OpenAI models.
 ## Demo
 
 View the latest list of models, updated daily:
-- **https://code4fukui.github.io/openai-models/**
+- **https://github.com/code4fukui/openai-models
 
 The web page displays a table of model IDs and their creation dates, sorted with the most recent models at the top.
 
